@@ -5,7 +5,7 @@ import email_tools
 
 def main():
     matched = False
-    choice = input("Choose the email type {}: ".format(list(settings.email_types.keys())))
+    choice = input("Choose the email type {}: ".format(settings.choices)).lower()
 
     for (email_type, keywords) in settings.email_types.items():
         if choice in keywords:

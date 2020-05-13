@@ -12,7 +12,7 @@ You will need the following packages installed for Python 2.7:
 Update your API keys and settings in the `settings.py` file.
 
 ## Use
-`./send.py` runs you through the entire script.
+`./send.py` runs you through the entire script. You will need to give execution permission.
 1. Weekly Email
 	1. Update the HTML email body using Vim. (I, personally, prefer to write the body using a Markdown editor and then copy the HTML source.)
 	2. Preview the email to check the formatting in the default browser.
